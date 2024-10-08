@@ -1,0 +1,21 @@
+require("user.launch")
+require("user.options")
+require("user.keymaps")
+-- plugins
+spec("user.colorscheme")
+spec("user.oil")
+spec("user.autopairs")
+spec("user.devicons")
+spec("user.treesitter")
+spec("user.telescope")
+spec("user.lspzero")
+spec("user.cmp")
+spec("user.lspconfig")
+spec("user.mason")
+spec("user.mason-lsp")
+spec("user.harpoon")
+spec("user.conjure")
+spec("user.jackin")
+
+-- lazy
+require("user.lazy")
