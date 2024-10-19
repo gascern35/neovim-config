@@ -16,6 +16,6 @@ spec("user.mason-lsp")
 spec("user.harpoon")
 spec("user.conjure")
 spec("user.jackin")
-
+spec("user.obsidian")
 -- lazy
 require("user.lazy")
